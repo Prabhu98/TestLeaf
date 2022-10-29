@@ -1,4 +1,15 @@
 class Solution {
+
+/**
+traversal for loop i from 0 to length
+  * traversal for loop j from i+1 to length
+  * check condition numbers[i] + numbers[j] == target
+  * return the index as i+1,j+1
+  * 
+
+
+*/
+
     public int[] twoSum(int[] numbers, int target) {
         
         for(int i=0;i<numbers.length;i++){
