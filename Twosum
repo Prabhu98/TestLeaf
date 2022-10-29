@@ -21,6 +21,6 @@ traversal for loop i from 0 to length
                 }
             }
         }
-        return new int[] {};
+        return new int[] {-1,-1};
     }
 }
